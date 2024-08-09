@@ -15,8 +15,8 @@ Requiere un archivo .env para cargar variables de entorno como DISCORD_TOKEN par
 """
 
 # Importar las bibliotecas necesarias
-import discord
-from discord.ext import commands
+import discord # type: ignore
+from discord.ext import commands # type: ignore
 import sqlite3
 import os
 from dotenv import load_dotenv

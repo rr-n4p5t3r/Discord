@@ -1,3 +1,13 @@
+"""
+Bot de Discord para manejar preguntas y respuestas tipo trivia.
+
+Autor: Ricardo Rosero
+GitHub: rr-n4p5t3r
+Email: rrosero2000@gmail.com
+
+Requiere un archivo .env para cargar variables de entorno como DISCORD_TOKEN para la autenticación del bot.
+
+"""
 import discord # type: ignore
 from discord.ext import commands, tasks # type: ignore
 import requests

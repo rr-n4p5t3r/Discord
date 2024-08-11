@@ -1,3 +1,13 @@
+"""
+Bot de Discord para obtener el clima de una ciudad y mostrar un pronostico para las siguientes 12 horas
+
+Autor: Ricardo Rosero
+GitHub: rr-n4p5t3r
+Email: rrosero2000@gmail.com
+
+Requiere un archivo .env para cargar variables de entorno como DISCORD_TOKEN y WEATHER_API_KEY para la autenticación del bot.
+
+"""
 import discord # type: ignore
 from discord.ext import commands # type: ignore
 import requests
